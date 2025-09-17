@@ -187,7 +187,7 @@ export const Button = ({
     const Component = href ? AriaLink : AriaButton;
 
     const isIcon = (IconLeading || IconTrailing) && !children;
-    const isLinkType = ["link-gray", "link-color", "link-destructive"].includes(color);
+    const isLinkType = ["link-gray", "link-color", "link-destructive"].includes(color as string);
 
     noTextPadding = isLinkType || noTextPadding;
 

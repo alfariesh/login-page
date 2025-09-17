@@ -37,17 +37,11 @@ export const HeroAnimation = ({ className, onReady, autoplay = true, artboard, s
             return;
         }
 
-        if (autoplay && !rive.playing) {
+        if (autoplay && !rive.isPlaying) {
             rive.play();
         }
 
-        rive.renderer?.save();
-        try {
-            console.log("Applying transform matrix:", upscaleMatrix);
-            rive.renderer?.transform(upscaleMatrix);
-        } catch (error) {
-            console.error("Failed to apply transform", error);
-        }
+        // Renderer access removed due to private property restriction
 
         onReady?.(rive);
 
