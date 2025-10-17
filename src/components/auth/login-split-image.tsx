@@ -17,10 +17,22 @@ const loginOptions = [
         logo: "/wcm logo.webp",
     },
     {
+        value: "dimas",
+        title: "Dimas",
+        description: "Platform pupuk nonsubsidi",
+        logo: "/Dimas.webp",
+    },
+    {
         value: "respons",
         title: "Respons",
         description: "Platform pupuk nonsubsidi",
         logo: "/RESPONS-PI 1.webp",
+    },
+    {
+        value: "andalan",
+        title: "Andalan",
+        description: "Platform pupuk subsidi",
+        logo: "/Andalan.webp",
     },
 ];
 
