@@ -12,7 +12,8 @@
       "Bash(npm install)",
       "Bash(npm install:*)",
       "Bash(git push:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Bash(timeout:*)"
     ],
     "deny": [],
     "ask": []
